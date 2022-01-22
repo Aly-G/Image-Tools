@@ -37,7 +37,7 @@ def countPixels():
     text.insert(tkinter.INSERT, pixel)
     text.pack()
 #main code
-print("NOTICE: On the online version of this code, a sample image can only be used. Download the code from <github link> to use a custom image by replacing sample.jpg with your own image renamed to be sample.jpg")
+print("NOTICE: On the online version of this code, a sample image can only be used. Download the code from https://github.com/Aly-G/Image-Tools to use a custom image by replacing sample.jpg with your own image renamed to be sample.jpg")
 img=cv2.imread("sample.jpg")
 window=tkinter.Tk()
 showimg=tkinter.Button(window, text="Show Unmodified Image", command=showImage) #show umodified image
